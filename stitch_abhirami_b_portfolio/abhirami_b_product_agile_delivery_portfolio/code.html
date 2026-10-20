@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=JetBrains+Mono:wght@100..900&family=Newsreader:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary-container":"#1b1c1a","background":"#faf9f5","on-primary-fixed":"#1b1c1a","on-primary":"#ffffff","secondary-container":"#dee7c1","on-primary-container":"#848481","surface-container":"#efeeea","surface-bright":"#faf9f5","on-secondary-fixed-variant":"#424a2e","surface-container-highest":"#e3e2df","inverse-on-surface":"#f2f1ed","on-tertiary-container":"#84847f","outline":"#767872","surface-tint":"#5e5e5c","tertiary-fixed-dim":"#c7c7c1","on-error-container":"#93000a","secondary-fixed-dim":"#c2caa7","on-secondary-container":"#60684a","on-surface-variant":"#454743","surface-container-lowest":"#ffffff","primary-fixed-dim":"#c7c6c3","tertiary":"#000000","on-tertiary-fixed":"#1b1c19","outline-variant":"#c6c7c1","primary":"#000000","surface-container-low":"#f5f4f0","tertiary-container":"#1b1c19","surface-variant":"#e3e2df","on-primary-fixed-variant":"#464744","inverse-primary":"#c7c6c3","secondary-fixed":"#dee7c1","surface-dim":"#dbdad6","on-tertiary":"#ffffff","tertiary-fixed":"#e4e3dd","on-secondary":"#ffffff","surface":"#faf9f5","on-error":"#ffffff","on-background":"#1b1c1a","secondary":"#5a6244","on-secondary-fixed":"#171e07","error-container":"#ffdad6","on-tertiary-fixed-variant":"#464743","error":"#ba1a1a","inverse-surface":"#30312e","on-surface":"#1b1c1a","surface-container-high":"#e9e8e4","primary-fixed":"#e4e2df"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","gutter-mobile":"1rem","space-sm":"0.5rem","space-lg":"1.5rem","gutter":"1.5rem","margin":"3rem","margin-mobile":"1.25rem"},"fontFamily":{"label-caps":["JetBrains Mono"],"body-md":["Geist"],"headline-sm":["Geist"],"label-code":["JetBrains Mono"],"headline-lg-mobile":["Newsreader"],"display-hero-mobile":["Newsreader"],"headline-lg":["Newsreader"],"headline-md":["Geist"],"display-hero":["Newsreader"],"body-lg":["Geist"],"body-sm":["Geist"]},"fontSize":{"label-caps":["0.6875rem",{"lineHeight":"1.3","letterSpacing":"0.08em","fontWeight":"600"}],"body-md":["0.9375rem",{"lineHeight":"1.6","letterSpacing":"0","fontWeight":"400"}],"headline-sm":["1.125rem",{"lineHeight":"1.4","letterSpacing":"-0.01em","fontWeight":"500"}],"label-code":["0.75rem",{"lineHeight":"1.4","letterSpacing":"0.04em","fontWeight":"500"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"1.25","letterSpacing":"-0.015em","fontWeight":"400"}],"display-hero-mobile":["2.25rem",{"lineHeight":"1.2","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-lg":["2.5rem",{"lineHeight":"1.2","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-md":["1.5rem",{"lineHeight":"1.3","letterSpacing":"-0.015em","fontWeight":"500"}],"display-hero":["3.75rem",{"lineHeight":"1.15","letterSpacing":"-0.025em","fontWeight":"400"}],"body-lg":["1.125rem",{"lineHeight":"1.6","letterSpacing":"-0.005em","fontWeight":"400"}],"body-sm":["0.8125rem",{"lineHeight":"1.5","letterSpacing":"0.005em","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-fixed"><header class="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between"><a class="flex items-center gap-space-sm group text-left" data-path="home" href="#"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-secondary transition-colors">Abhirami B</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Product & Agile Delivery</span></div></a><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors text-primary font-bold" data-path="home" href="#">Home</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="work" href="#">Work</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="approach" href="#">Approach</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="blog" href="#">Blog</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container rounded-full"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span class="font-label-code text-label-code text-on-surface-variant uppercase">Open to PO / BA / AI roles</span></div><button aria-label="Toggle theme" class="p-space-xs rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[1.125rem] leading-none">light_mode</span></button><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-xs rounded-full bg-primary text-on-primary font-body-sm text-body-sm hover:bg-primary-container hover:text-on-primary-container transition-all" data-path="contact" href="#">Let's talk</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UNmxpQCIZo7WQP-jplqXae4MoHbj0oGbT9pGv9PcE3CO467pvY-bbVsuQ9vFnddH3bT3xO4xq0JAIZ1hlZChzV3g_xANwgzQ4i1l6kGdzAnkDD3pbi8elZzDYu2WF_dk_9F8di19QFaPrTDfxVkTJGz10vCTQvH363Hv5HqCIW7-j9etOVg9es1tikmnvw8kB-OD6YvfOdUQ-XLto8G0oTXCPlL-MI1ec7JI-3BNUWb96TZv8maw9Tj5M"/></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Top Subtle Status Ribbon -->
+<section class="w-full bg-surface-container-low py-space-xs">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin flex flex-wrap items-center justify-between gap-space-xs text-on-surface-variant font-label-code text-label-code">
+<div class="flex items-center gap-space-sm">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="uppercase tracking-wider">Field Note · Editorial System v2.5</span>
+<span class="hidden sm:inline text-outline-variant">/</span>
+<span class="hidden sm:inline">Product Management · Requirements Engineering · Agile Systems</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="text-on-surface font-medium">Availability:</span>
+<span class="text-secondary font-medium">Q2/Q3 2025 · Hybrid / Remote US & EMEA Sync</span>
+</div>
+</div>
+</section>
+<!-- 1. HERO SECTION -->
+<section class="w-full relative overflow-hidden py-space-xl lg:py-24">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<!-- Asymmetric Editorial Header Structure -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter items-start">
+<div class="lg:col-span-8 flex flex-col">
+<!-- Eyebrow & Badges -->
+<div class="flex flex-wrap items-center gap-space-sm mb-space-md">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">
+              PRODUCT OWNER · BUSINESS ANALYST · AGILE DELIVERY
+            </span>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed font-label-code text-label-code">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>3+ Years Experience · Enterprise AI & SaaS</span>
+</div>
+</div>
+<!-- Main Serif Display Headline -->
+<h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero text-on-surface tracking-tight mb-space-md max-w-4xl">
+            I turn complex requirements into products teams can deliver.
+          </h1>
+<!-- Body Copy -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-space-lg leading-relaxed">
+            Product Owner and Business Analyst with 3+ years of experience across enterprise AI, requirements engineering, and Agile delivery. I bring structure to ambiguity, align stakeholders with engineering, and help teams ship with clarity.
+          </p>
+<!-- CTAs & Availability -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md mb-space-md">
+<a class="inline-flex items-center justify-center px-space-lg py-space-sm bg-primary text-on-primary rounded-lg font-body-md text-body-md hover:bg-primary-container hover:text-on-primary-container transition-all shadow-sm" href="#case-studies">
+              Explore my work
+              <span class="material-symbols-outlined text-[1.125rem] ml-space-xs">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center px-space-lg py-space-sm bg-surface-container-lowest text-on-surface rounded-lg font-body-md text-body-md hover:bg-surface-container hover:text-secondary transition-all shadow-sm" href="#contact-section">
+              Get in touch
+              <span class="material-symbols-outlined text-[1.125rem] ml-space-xs">arrow_forward</span>
+</a>
+</div>
+<p class="font-label-code text-label-code text-on-surface-variant flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[0.875rem] text-secondary">public</span>
+            Available for international & US/India hybrid cross-functional teams
+          </p>
+</div>
+<!-- Sidebar Accent: Editorial Ledger Card -->
+<div class="lg:col-span-4 flex flex-col gap-space-md mt-space-md lg:mt-0">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm bg-surface-container-low px-space-sm py-space-xs rounded-lg">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Specification Dossier</span>
+<span class="font-label-code text-label-code text-secondary font-semibold">REC // 028-25</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Core Practice</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium text-right">Enterprise GenAI & FinTech</span>
+</div>
+<div class="flex items-start justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Primary Framework</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium text-right">Scrum / Dual-Track Agile</span>
+</div>
+<div class="flex items-start justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Deliverables</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium text-right">BRD, PRD, User Stories, Gherkin</span>
+</div>
+<div class="flex items-start justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Stakeholder Span</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium text-right">C-Suite to Lead ML Architects</span>
+</div>
+</div>
+<!-- Mini Sparkline Progress Visual -->
+<div class="mt-space-md pt-space-md bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-xs">
+<div class="flex justify-between items-center text-label-code font-label-code text-on-surface-variant">
+<span>Rework Reduction Benchmark</span>
+<span class="font-bold text-on-surface">-100% on ChatMCL</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 94%;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bespoke Product Workflow Diagram: Architectural Wireframe Blueprint -->
+<div class="mt-space-xl pt-space-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">account_tree</span>
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">End-to-End Delivery Architecture</span>
+</div>
+<span class="font-label-code text-label-code text-on-surface-variant hidden sm:inline">ARTIFACT: SPEC-FLOW-v4.2</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-space-sm">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-code text-label-code text-secondary font-bold">01 // INTAKE</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-code text-[0.625rem]">RAW</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Ambiguous Need</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fragmented stakeholder inputs, manual pain points, and loose vision statements.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant block">Input: Discovery Calls</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-code text-label-code text-secondary font-bold">02 // SYNTHESIS</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-code text-[0.625rem]">ALIGN</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Discovery & BRD</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Process mapping, business rule definition, technical feasibility audits, and scoping.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant block">Output: Approved PRD/BRD</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-code text-label-code text-secondary font-bold">03 // DECOMPOSITION</span>
+<span class="px-space-xs py-0.5 rounded bg-secondary-container text-on-secondary-fixed font-label-code text-[0.625rem]">SPEC</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Structured Backlog</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gherkin acceptance criteria (Given-When-Then), INVEST user stories, INVEST estimation.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant block">Output: Sprint-Ready Items</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-code text-label-code text-secondary font-bold">04 // EXECUTION</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-code text-[0.625rem]">BUILD</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Sprint & UAT</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Active unblocking, daily standup governance, staging validation, user sign-off.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant block">Gate: 0 Rework Criteria</span>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-code text-label-code text-secondary font-bold">05 // OUTCOME</span>
+<span class="px-space-xs py-0.5 rounded bg-secondary-container text-on-secondary-fixed font-label-code text-[0.625rem]">VALUE</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Measurable Value</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Post-launch telemetry, CSAT instrumentation, operational efficiency gains realized.</p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-secondary font-semibold block">Metric: ROI & CSAT Lift</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SELECTED ACHIEVEMENTS & METRICS LEDGER -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-space-xs">QUANTIFIED OUTCOMES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Precision through empirical delivery</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
+          Real business impact audited across enterprise GenAI rollouts, billing analytics, and development lifecycle optimization.
+        </p>
+</div>
+<!-- 6-Metric High-Density Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex justify-between items-start mb-space-md">
+<span class="font-label-code text-label-code text-on-surface-variant uppercase tracking-wider">PROCESS EFFICIENCY</span>
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">trending_up</span>
+</div>
+<div>
+<div class="font-headline-lg text-[3rem] lg:text-[3.5rem] leading-none font-medium text-on-surface mb-space-xs tracking-tight">35%</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Reporting cycle time cut</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Achieved via automated data orchestration, scheduled distribution, and self-serve workflow redesign in enterprise Billing Analytics.
+            </p>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex justify-between items-start mb-space-md">
+<span class="font-label-code text-label-code text-on-surface-variant uppercase tracking-wider">AGILE VELOCITY</span>
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">speed</span>
+</div>
+<div>
+<div class="font-headline-lg text-[3rem] lg:text-[3.5rem] leading-none font-medium text-on-surface mb-space-xs tracking-tight">25%</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Shorter dev cycle time</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Systematic decomposition, unambiguous Gherkin acceptance criteria, and elimination of pre-sprint requirements churn.
+            </p>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex justify-between items-start mb-space-md">
+<span class="font-label-code text-label-code text-on-surface-variant uppercase tracking-wider">CUSTOMER SATISFACTION</span>
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">thumb_up</span>
+</div>
+<div>
+<div class="font-headline-lg text-[3rem] lg:text-[3.5rem] leading-none font-medium text-on-surface mb-space-xs tracking-tight">5–10%</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">CSAT lift recorded</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Delivered on Ask Holley GenAI conversational assistant through fine-tuned intent recognition and fast advisory workflows.
+            </p>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex justify-between items-start mb-space-md">
+<span class="font-label-code text-label-code text-on-surface-variant uppercase tracking-wider">AGENT CAPACITY</span>
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">groups</span>
+</div>
+<div>
+<div class="font-headline-lg text-[3rem] lg:text-[3.5rem] leading-none font-medium text-on-surface mb-space-xs tracking-tight">9.7%</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Support bandwidth gained</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tier-1 ticket deflection freeing technical specialists for high-value sales consultation and escalations.
+            </p>
+</div>
+</div>
+<!-- Metric 5 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex justify-between items-start mb-space-md">
+<span class="font-label-code text-label-code text-on-surface-variant uppercase tracking-wider">SEARCH LATENCY</span>
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">flash_on</span>
+</div>
+<div>
+<div class="font-headline-lg text-[2.5rem] lg:text-[3rem] leading-none font-medium text-on-surface mb-space-xs tracking-tight">Near-instant</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Replaced 5+ min manual search</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Engineered semantic discovery across complex RF component catalogs, reducing RFQ specification lookup to seconds.
+            </p>
+</div>
+</div>
+<!-- Metric 6 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex justify-between items-start mb-space-md">
+<span class="font-label-code text-label-code text-on-surface-variant uppercase tracking-wider">ENTERPRISE SCALE</span>
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">token</span>
+</div>
+<div>
+<div class="font-headline-lg text-[3rem] lg:text-[3.5rem] leading-none font-medium text-on-surface mb-space-xs tracking-tight">2</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Flagship GenAI solutions shipped</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              End-to-end oversight covering LLM parameter testing, vector search logic, RAG pipelines, and cross-timezone rollout.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SELECTED WORK / CASE STUDIES SHOWCASE -->
+<section class="w-full py-space-xl lg:py-24" id="case-studies">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col mb-space-xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-space-xs">CASE STUDIES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs">Engineered for clarity, built to scale</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Deep dives into complex domains: how structured requirement analysis and disciplined Scrum leadership delivered zero-rework deployments.
+        </p>
+</div>
+<div class="flex flex-col gap-space-xl">
+<!-- CASE STUDY 1: ChatMCL -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-0 group">
+<div class="lg:col-span-7 p-space-lg lg:p-space-xl flex flex-col justify-between">
+<div>
+<!-- Monospace Ticker & Domain -->
+<div class="flex flex-wrap items-center gap-space-xs mb-space-sm text-label-code font-label-code">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-semibold">CASE // 001</span>
+<span class="text-secondary font-medium">Enterprise GenAI · RAG Architecture</span>
+<span class="text-outline-variant">·</span>
+<span class="text-on-surface-variant">Mini-Circuits (US Client)</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface mb-space-sm">
+                ChatMCL: Semantic Component Discovery & Recommendation Engine
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+                Mini-Circuits engineers and procurement leads struggled with high-latency technical product lookups taking upwards of 5 minutes across fragmented datasheets, parametric tables, and RF application notes.
+              </p>
+<!-- Deliverable Metadata Stack -->
+<div class="bg-surface-container-low p-space-md rounded-lg mb-space-md flex flex-col gap-space-xs">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">My Role:</span>
+<span class="text-on-surface font-medium">Product Owner / Scrum Master / Lead Business Analyst</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Delivery Scope:</span>
+<span class="text-on-surface font-medium">Vector Store Ingestion, Precision Metrics, Agile Refinement</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Client Endorsement:</span>
+<span class="text-secondary font-medium">Written commendation for on-time, zero-rework launch</span>
+</div>
+</div>
+<!-- Impact Pills -->
+<div class="flex flex-wrap gap-space-xs mb-space-md">
+<span class="px-space-sm py-1 rounded bg-secondary-container text-on-secondary-fixed font-label-code text-label-code">
+                  Near-instant technical retrieval
+                </span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant font-label-code text-label-code">
+                  Zero rework sprints
+                </span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant font-label-code text-label-code">
+                  Cross-time-zone US/India alignment
+                </span>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between bg-surface-container-low px-space-md py-space-xs rounded-lg">
+<span class="font-label-code text-label-code text-on-surface-variant">TECH: Azure OpenAI · Pinecone · Jira</span>
+<a class="inline-flex items-center text-on-surface hover:text-secondary font-body-sm font-semibold transition-colors" data-path="work" href="#">
+                Read case study
+                <span class="material-symbols-outlined text-[1.125rem] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Visual Showcase Area -->
+<div class="lg:col-span-5 bg-surface-container-high relative min-h-[320px] lg:min-h-full flex flex-col justify-center p-space-md overflow-hidden">
+<img class="w-full h-full object-cover rounded-lg shadow-sm" data-alt="Technical product interface mockup of an enterprise GenAI search tool named ChatMCL displaying complex RF components, semantic query results, confidence scores, and parametric comparison tables in a clean warm minimalist design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs_STXYctOMI8DgXYS9cEfQUvY3jdoSDDWyvb2v27sBoCjD5SdIPXg5eI7RB5IRQyr-CqFc6D780yT0JqgVIJvlaKo5bGUc0ItfI13Kr1ZW149WRKDOg3DWXGfJIbP3YhWpABpVCWYN0Ado69HluBQrrc8DcatoxTtd02XUuYqz-wq7TfBx83BK9v3bKxAbBCmPvhjimJ590hZp2cA547nboFaOH7DAo6NgGuar34UJnjiP-INMsk1"/>
+<div class="absolute bottom-6 right-6 bg-surface-container-lowest/90 backdrop-blur-md px-space-sm py-space-xs rounded font-label-code text-label-code text-on-surface shadow-sm">
+              LATENCY: < 850ms
+            </div>
+</div>
+</article>
+<!-- CASE STUDY 2: Ask Holley -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-0 group">
+<div class="lg:col-span-7 p-space-lg lg:p-space-xl flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-center gap-space-xs mb-space-sm text-label-code font-label-code">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-semibold">CASE // 002</span>
+<span class="text-secondary font-medium">Customer Support AI & E-Commerce</span>
+<span class="text-outline-variant">·</span>
+<span class="text-on-surface-variant">Holley Automotive (US Client)</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface mb-space-sm">
+                Ask Holley: Automated Automotive Advisory & Conversion Engine
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+                High inquiry volumes on performance automotive parts caused delayed pre-purchase advice, support backlog spikes, and dropped shopping cart conversions across seasonal demand peaks.
+              </p>
+<div class="bg-surface-container-low p-space-md rounded-lg mb-space-md flex flex-col gap-space-xs">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">My Role:</span>
+<span class="text-on-surface font-medium">Product Owner / Agile Facilitator</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Process Milestone:</span>
+<span class="text-on-surface font-medium">Authored company's first institutional Documentation Standard</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Financial Footprint:</span>
+<span class="text-secondary font-medium">~$1M estimated quarterly pipeline influenced</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-space-xs mb-space-md">
+<span class="px-space-sm py-1 rounded bg-secondary-container text-on-secondary-fixed font-label-code text-label-code">
+                  +5–10% CSAT Improvement
+                </span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant font-label-code text-label-code">
+                  +9.7% Operational Capacity
+                </span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant font-label-code text-label-code">
+                  Deflection without churn
+                </span>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between bg-surface-container-low px-space-md py-space-xs rounded-lg">
+<span class="font-label-code text-label-code text-on-surface-variant">TECH: LLM Fine-Tuning · Shopify Sync · Confluence</span>
+<a class="inline-flex items-center text-on-surface hover:text-secondary font-body-sm font-semibold transition-colors" data-path="work" href="#">
+                Read case study
+                <span class="material-symbols-outlined text-[1.125rem] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5 bg-surface-container-high relative min-h-[320px] lg:min-h-full flex flex-col justify-center p-space-md overflow-hidden">
+<img class="w-full h-full object-cover rounded-lg shadow-sm" data-alt="Conversational AI interface for Ask Holley automotive parts matching system displaying high-performance engine parts recommendations, fitment validation flags, and direct cart integration in a clean modern interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfK_Qhtr6Y9gbYL7fwY0ifRykWsZVk8xb0EKPArd47Un3uBFi3vCcE-Tn59jDPBFZOwvjgShzPUDCqEl5uTz55wLPIXE9KcwE5fQN0hmxZtFHiQo8d0CTA3ua9Nyms1ZUC3mwUSNhr6E_k3eKY86VIk_AEktboGs4mpstemF1IQ5qL9WMxp_zaJdSASPI3llDiHSk0WgBk03DwdRXzTbNjVz4GZSmFG40FA-jwbJV-EkcJCh4opUGk"/>
+<div class="absolute bottom-6 right-6 bg-surface-container-lowest/90 backdrop-blur-md px-space-sm py-space-xs rounded font-label-code text-label-code text-on-surface shadow-sm">
+              DEFLECTION: +9.7%
+            </div>
+</div>
+</article>
+<!-- CASE STUDY 3: Billing Analytics -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-0 group">
+<div class="lg:col-span-7 p-space-lg lg:p-space-xl flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-center gap-space-xs mb-space-sm text-label-code font-label-code">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-semibold">CASE // 003</span>
+<span class="text-secondary font-medium">FinTech & Operations Automation</span>
+<span class="text-outline-variant">·</span>
+<span class="text-on-surface-variant">Internal Platform Evolution</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface mb-space-sm">
+                Self-Serve Billing Reporting & Workflow Automation
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+                Billing teams were burdened by manual spreadsheet consolidation, static ad-hoc report generation, and fragmented audit trails that delayed month-end book closing and reconciliation.
+              </p>
+<div class="bg-surface-container-low p-space-md rounded-lg mb-space-md flex flex-col gap-space-xs">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">My Role:</span>
+<span class="text-on-surface font-medium">Business Analyst / Product Owner</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Core Interventions:</span>
+<span class="text-on-surface font-medium">As-Is/To-Be Mapping, Automated Schedule, Role-Based Access</span>
+</div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Quantified Result:</span>
+<span class="text-secondary font-medium">35% reduction in internal financial turnaround</span>
+</div>
+</div>
+<div class="flex flex-wrap gap-space-xs mb-space-md">
+<span class="px-space-sm py-1 rounded bg-secondary-container text-on-secondary-fixed font-label-code text-label-code">
+                  35% Efficiency Gain
+                </span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant font-label-code text-label-code">
+                  Self-serve dynamic filters
+                </span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant font-label-code text-label-code">
+                  Automated dispatch triggers
+                </span>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between bg-surface-container-low px-space-md py-space-xs rounded-lg">
+<span class="font-label-code text-label-code text-on-surface-variant">TECH: Power BI · SQL Data Pipelines · Lucidchart</span>
+<a class="inline-flex items-center text-on-surface hover:text-secondary font-body-sm font-semibold transition-colors" data-path="work" href="#">
+                Read case study
+                <span class="material-symbols-outlined text-[1.125rem] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5 bg-surface-container-high relative min-h-[320px] lg:min-h-full flex flex-col justify-center p-space-md overflow-hidden">
+<img class="w-full h-full object-cover rounded-lg shadow-sm" data-alt="Data visualization dashboard displaying enterprise billing metrics, revenue reconciliation charts, automated invoice pipelines, and self-serve filter parameters in a clean editorial layout." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQkE4HgHLRLpyzSMynRtPks3eQuFXfprP-0ihCW2CGtgkzhfikz88jOtXDwavdMZOlX1CtszM_1w3N4NnaQ2_N-7_NXd_nB1j2gTemybichTFDL7eFMDGnZJBearHOr-8R8R54R_m67s4UGJhbju70oalBBHM1nbOSnoASJ06xkOPDx1NGSO7EN77nS0eyijUsBdxbN6eRmB7ycif65xh9bC1Sp1G2guwnDhE-nd3rRZKX8Fj698vJ"/>
+<div class="absolute bottom-6 right-6 bg-surface-container-lowest/90 backdrop-blur-md px-space-sm py-space-xs rounded font-label-code text-label-code text-on-surface shadow-sm">
+              SCHEDULED: 100% AUTOMATED
+            </div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- 4. HOW I WORK: A 4-STAGE DELIVERY FRAMEWORK -->
+<section class="w-full bg-surface-container-low py-space-xl lg:py-24">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between mb-space-xl gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-space-xs">EXECUTION METHODOLOGY</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">A 4-Stage Delivery Framework</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
+          A repeatable, low-friction operating rhythm designed to bridge business ambitions with daily engineering velocity.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Stage 01 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-code text-label-code text-secondary font-bold">STAGE 01</span>
+<span class="material-symbols-outlined text-outline-variant">troubleshoot</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Understand</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Deconstruct user friction and organizational goals through deep discovery.
+            </p>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Stakeholder discovery workshops</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>As-Is vs To-Be process mapping</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Gap analysis & technical constraint audits</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Scope definition & trade-off matrices</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-lg pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant">Deliverable: BRD & User Journey</span>
+</div>
+</div>
+<!-- Stage 02 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-code text-label-code text-secondary font-bold">STAGE 02</span>
+<span class="material-symbols-outlined text-outline-variant">format_list_bulleted</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Structure</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Translate broad strategy into discrete, testable technical stories.
+            </p>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>INVEST-compliant User Stories</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Gherkin Acceptance Criteria</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>MoSCoW / Value-vs-Effort prioritization</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Epic architecture & data mapping</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-lg pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant">Deliverable: Refined Jira Backlog</span>
+</div>
+</div>
+<!-- Stage 03 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-code text-label-code text-secondary font-bold">STAGE 03</span>
+<span class="material-symbols-outlined text-outline-variant">bolt</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Deliver</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Lead high-cadence development without ambiguity or mid-sprint shocks.
+            </p>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Disciplined Sprint Planning & Estimation</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Proactive developer unblocking</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Cross-functional QA & Dev pairing</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Velocity & burndown tracking</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-lg pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant">Deliverable: Working Increment</span>
+</div>
+</div>
+<!-- Stage 04 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-code text-label-code text-secondary font-bold">STAGE 04</span>
+<span class="material-symbols-outlined text-outline-variant">verified</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">Validate</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Guarantee business signoff and trace measurable adoption metrics.
+            </p>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>UAT scenario coordination</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Stakeholder demo walkthroughs</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Post-launch CSAT & telemetry monitoring</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[1rem] text-secondary mt-0.5">check_small</span>
+<span>Iterative sprint retrospective insights</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-lg pt-space-sm bg-surface-container-low p-space-xs rounded">
+<span class="font-label-code text-label-code text-on-surface-variant">Deliverable: Business Signoff & Insights</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. CORE SKILLS & TOOLING MATRIX -->
+<section class="w-full py-space-xl lg:py-24">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col mb-space-xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-space-xs">COMPETENCY ARCHITECTURE</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs">Capabilities across the product lifecycle</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Where domain business rigor intersects hands-on Agile leadership and machine learning implementations.
+        </p>
+</div>
+<!-- 4 Strategic Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md mb-space-xl">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">inventory_2</span>
+<span class="font-label-code text-label-code text-secondary font-bold">PILLAR // 01</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-sm">Product Ownership</h3>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Backlog Prioritization (MoSCoW)</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Epics & User Story Decomposition</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Strict Acceptance Criteria (INVEST)</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>MVP Scoping & Phased Roadmaps</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Release Readiness & Launch Support</li>
+</ul>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">analytics</span>
+<span class="font-label-code text-label-code text-secondary font-bold">PILLAR // 02</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-sm">Business Analysis</h3>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>BRD & Functional Specifications</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>As-Is vs. To-Be Process Workflows</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Requirements Traceability Matrices</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Gap Analysis & Impact Audits</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>UAT Scenario Authoring</li>
+</ul>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">sync_alt</span>
+<span class="font-label-code text-label-code text-secondary font-bold">PILLAR // 03</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-sm">Agile Delivery</h3>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Sprint Planning & Story Pointing</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Daily Scrum Facilitation</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Continuous Backlog Refinement</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Action-Oriented Retrospectives</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Impediment & Dependency Resolution</li>
+</ul>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-secondary text-[1.25rem]">memory</span>
+<span class="font-label-code text-label-code text-secondary font-bold">PILLAR // 04</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-sm">AI & Technology</h3>
+<ul class="flex flex-col gap-space-xs text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Enterprise GenAI & LLM Scoping</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>RAG Pipeline Functional Specs</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Semantic Search Intent Analysis</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>API & System Integration Logic</li>
+<li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Full Life-cycle SDLC Collaboration</li>
+</ul>
+</div>
+</div>
+<!-- Tooling Strip -->
+<div class="bg-surface-container-low p-space-lg rounded-xl">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-space-xs">DAILY TOOLSTACK</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Production-grade tool fluency for seamless team onboarding</span>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Jira Software</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Azure DevOps</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Confluence</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Figma</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Balsamiq</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">draw.io</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Lucidchart</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Power BI</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Tableau</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-code text-label-code shadow-sm">Advanced Excel</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. ACCESSIBLE FAQ ACCORDION -->
+<section class="w-full bg-surface-container-low py-space-xl lg:py-24">
+<div class="max-w-4xl mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center mb-space-xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-space-xs">CLARIFICATIONS</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs">Frequently Asked Questions</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Direct answers regarding roles, availability, workflows, and domain engagements.</p>
+</div>
+<div class="flex flex-col gap-space-sm" id="faq-group">
+<!-- FAQ 1 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button aria-expanded="true" class="faq-btn w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">What exact roles are you currently considering?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-body-md text-on-surface-variant block">
+            I am actively open to Product Owner (PO), Technical Business Analyst (BA), and Agile Delivery roles—especially those working on enterprise AI initiatives, internal toolings, workflow automation, or complex SaaS platforms.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-btn w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">How deep is your hands-on experience with GenAI & Machine Learning?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-body-md text-on-surface-variant hidden">
+            I have steered two flagship enterprise GenAI products from initial concept to live customer production: ChatMCL (a semantic search engine with vector embeddings over complex technical catalogs) and Ask Holley (a conversational pre-purchase advisory agent). My focus is defining RAG parameters, intent handling logic, context limits, evaluation metrics, and ensuring zero-hallucination guardrails for business-critical operations.
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-btn w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">How do you collaborate across international time zones (e.g., US & India)?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-body-md text-on-surface-variant hidden">
+            I have operated across US Eastern/Central and Indian Standard Time (IST) rhythms throughout my career. I leverage asynchronous documentation standards (detailed Confluence PRDs, recorded Loom walk-throughs, crystal-clear Jira Gherkin tickets) combined with focused high-overlap sync meetings for refinement and unblocking.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-btn w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">What does your requirement specification process look like in practice?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-body-md text-on-surface-variant hidden">
+            It starts with discovery workshops to build As-Is/To-Be process workflows. I break requirements down into INVEST-compliant user stories accompanied by Gherkin acceptance criteria (Given-When-Then). Developers receive exact edge cases, validation rules, and error states upfront—which was instrumental in achieving zero-rework sprints for Mini-Circuits.
+          </div>
+</div>
+<!-- FAQ 5 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button aria-expanded="false" class="faq-btn w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none" type="button">
+<span class="font-headline-sm text-headline-sm text-on-surface">What is the fastest way to get in touch?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200">expand_more</span>
+</button>
+<div class="faq-content px-space-lg pb-space-md text-body-md text-on-surface-variant hidden">
+            You can reach me directly via email at <strong class="text-on-surface">abhiramib.work@gmail.com</strong> or message me on <a class="text-secondary font-medium underline" href="https://linkedin.com/in/abhiramianil/" rel="noopener noreferrer" target="_blank">LinkedIn</a>. I typically respond within 24 hours.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. CLOSING CTA BANNER -->
+<section class="w-full py-space-xl lg:py-24" id="contact-section">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="bg-primary-container text-on-primary rounded-2xl p-space-lg lg:p-space-xl shadow-xl relative overflow-hidden">
+<!-- Subtle Grid Accent Line in background -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary opacity-10 pointer-events-none blur-2xl"></div>
+<div class="max-w-3xl relative z-10">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-widest block mb-space-sm">INITIATE COLLABORATION</span>
+<h2 class="font-display-hero text-headline-lg lg:text-display-hero text-on-primary mb-space-md leading-tight">
+            Good products start with clear thinking.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container mb-space-lg max-w-2xl leading-relaxed">
+            Whether you're building an AI product, improving delivery processes, or bringing structure to a complex initiative, I'd be happy to connect.
+          </p>
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md">
+<a class="inline-flex items-center justify-center px-space-lg py-space-sm bg-surface-container-lowest text-primary rounded-lg font-body-md text-body-md font-medium hover:bg-secondary-container hover:text-on-secondary-fixed transition-all shadow-sm" href="mailto:abhiramib.work@gmail.com">
+              Start a conversation
+              <span class="material-symbols-outlined text-[1.125rem] ml-space-xs">mail</span>
+</a>
+<a class="inline-flex items-center justify-center px-space-lg py-space-sm bg-transparent border-none text-on-primary rounded-lg font-body-md text-body-md hover:text-secondary-fixed transition-colors" href="https://linkedin.com/in/abhiramianil/" rel="noopener noreferrer" target="_blank">
+              Connect on LinkedIn
+              <span class="material-symbols-outlined text-[1.125rem] ml-space-xs">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Accordion Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const faqButtons = document.querySelectorAll('.faq-btn');
+      faqButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const content = button.nextElementSibling;
+          const icon = button.querySelector('.material-symbols-outlined');
+          const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+          if (isExpanded) {
+            button.setAttribute('aria-expanded', 'false');
+            content.classList.add('hidden');
+            content.classList.remove('block');
+            if (icon) icon.style.transform = 'rotate(0deg)';
+          } else {
+            button.setAttribute('aria-expanded', 'true');
+            content.classList.remove('hidden');
+            content.classList.add('block');
+            if (icon) icon.style.transform = 'rotate(180deg)';
+          }
+        });
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg mb-space-xl"><div><span class="font-headline-sm text-headline-sm text-on-surface block mb-space-xs">Abhirami B</span><p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-space-sm">Product Owner & Business Analyst</p><p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">Product thinking. Clear requirements. Reliable delivery.</p></div><div><span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider block mb-space-md">Index</span><ul class="flex flex-col gap-space-xs"><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="work" href="#">Work & Case Studies</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="approach" href="#">Delivery Approach</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="blog" href="#">Field Notes & Blog</a></li></ul></div><div><span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider block mb-space-md">Channels</span><ul class="flex flex-col gap-space-xs"><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="https://linkedin.com/in/abhiramianil/" rel="noopener noreferrer" target="_blank">LinkedIn</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="mailto:abhiramib.work@gmail.com">abhiramib.work@gmail.com</a></li></ul></div><div><span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider block mb-space-md">Governance</span><ul class="flex flex-col gap-space-xs"><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a></li><li class="leading-none"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms-of-use" href="#">Terms of Use</a></li></ul></div></div><div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pt-space-md text-on-surface-variant font-label-code text-label-code"><span>© 2025 Abhirami B. All rights reserved.</span><span>Ref: Editorial System v2.5 / Agile Specification</span></div></div></footer></body></html>
